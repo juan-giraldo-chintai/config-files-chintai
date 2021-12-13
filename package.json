@@ -1,0 +1,33 @@
+{
+  "name": "config-files-chintai",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/juan-giraldo-chintai/config-files-chintai.git"
+  },
+  "author": "Juan Giraldo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/juan-giraldo-chintai/config-files-chintai/issues"
+  },
+  "homepage": "https://github.com/juan-giraldo-chintai/config-files-chintai#readme",
+  "devDependencies": {
+    "@next/eslint-plugin-next": "^12.0.7",
+    "@typescript-eslint/eslint-plugin": "^5.6.0",
+    "@typescript-eslint/parser": "^5.6.0",
+    "eslint": "^8.4.1",
+    "eslint-plugin-eslint-comments": "^3.2.0",
+    "eslint-plugin-import": "^2.25.3",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-ordered-imports": "^0.6.0",
+    "eslint-plugin-react": "^7.27.1",
+    "eslint-plugin-react-hooks": "^4.3.0",
+    "eslint-plugin-unicorn": "^39.0.0",
+    "typescript": "^4.5.3"
+  }
+}
