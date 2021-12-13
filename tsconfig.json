@@ -12,13 +12,23 @@
     "forceConsistentCasingInFileNames": true,
 
     "allowUnreachableCode": false,
+    "allowJs": true,
+    "experimentalDecorators": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "preserveConstEnums": true,
     
     "baseUrl": "./",
     "resolveJsonModule": true,
     "disableSizeLimit": true,
     "jsx": "preserve",
+    "sourceMap": true,
 
     "lib": ["dom", "DOM.Iterable", "esnext"],
 
-  }
+  },
+  "include": ["**/*"],
+  "exclude": ["node_modules"],
 }
